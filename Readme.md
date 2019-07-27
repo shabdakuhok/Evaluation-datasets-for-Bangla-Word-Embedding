@@ -1,4 +1,4 @@
-Our word dictionary named "bangla_words_dictionary.txt" and the processed corpus named "corpus_encoded_files.zip" are available<a href=""> here. </a>
+Our word dictionary named "bangla_words_dictionary.txt" and the processed corpus named "corpus_encoded_files.zip" are available<a href="https://drive.google.com/drive/folders/1yPiCIvJd7u44b5OVKlryNPlDNIazeEa0?usp=sharing"> here. </a>
 ### How was the corpus processed
 The words and punctuation marks in the text files in the corpus have been replaced by the index of the word available in the dictionary and numbers are replaced by the special token `<NUM>`. If the number of occurance of any word is 1 (Meaning a word has occured once in 716,481 articles. So the word is insignificant for our model), we have replaced the word with `<error>` tag.
 
